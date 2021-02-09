@@ -1,0 +1,10 @@
+#pragma once
+int fact(int number)
+{
+	int iteration, factorial = 1;
+	for (iteration = 1; iteration <= number; iteration++)
+	{
+		factorial = factorial * iteration;
+	}
+	return factorial;
+}
